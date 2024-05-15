@@ -27,3 +27,9 @@ class Solution:
         maxLevel = -1
         return rightSideViewRecursive(root, 0, [])
         
+"""
+I'm not happy about the maxLevel global var because that means I can't
+call the function twice for the same class without waiting or having bugs.
+However, I am pleased with my solution as it's neat, makes sense and solves
+the problem.
+"""
