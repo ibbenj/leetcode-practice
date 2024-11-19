@@ -43,3 +43,5 @@ var rotatedDigits = function(n) {
     
     return good;
 };
+
+console.log(rotatedDigits(5))
